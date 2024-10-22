@@ -1,9 +1,12 @@
-![Logo](docs/visual/snap_tb.png)
+![Logo](docs/visual/info.png)
 
+> [!NOTE]
+> "bATtiny Guard" and "PMG001" may be used interchangeably elsewhere in the documentation.
 
-# PMG001 Power management module
+---------------------------------------------------------------------------------
+# bATtiny Guard Power management module
 
-The PMG001 is a highly integrated module designed for efficient management of single-cell
+bATtiny Guard is a highly integrated module designed for efficient management of single-cell
 Li-Po battery systems. It incorporates various essential ICs to address all aspects of power
 management, including battery charging, switch/button power on/off behavior, undervoltage
 and overvoltage protection, flexible voltage measurement, battery current measurement, and
@@ -12,7 +15,7 @@ behaviors, ensuring comprehensive management of single-cell rechargeable battery
 systems.
 Furthermore, when paired with the demo kit base PCB, the module serves as a general
 development board for the ATTINY1616, with all
-1 pins accessible for any application.
+18 GPIO pins accessible for any application.
 
 
 
@@ -23,13 +26,27 @@ development board for the ATTINY1616, with all
 - 2A single cell charger
 - Single li-po cell powered
 - 4+16 ADC channels
-- Bi-directional battery current measurement
+- Battery current measurement
 - Brown-out detection/reset circuit
-- Low RDSon battery output MOSFET
+- Low on-resistance battery output MOSFET
 - On-module temperature measurement
 - I2C Interface
 - Arduino compatible
+---------------------------------------------------------------------------------
+<p align="center">
+  <a href="bATtiny_guard_datasheet.pdf"><img src="docs/visual/badges/Module-Datasheet-1E90FF.svg"></a>
+  <a href="docs/schematics/bATtiny_guard_module_schematic.pdf"><img src="docs/visual/badges/Module-Schematic-1E90FF.svg"></a>
+  <a href="bATtiny_guard_default_code"><img src="docs/visual/badges/Module-Code-1E90FF.svg"></a>
+  <a href="/docs/bom/bATtiny_guard_module_bom_partlist.pdf"><img src="docs/visual/badges/Module-BOM-1E90FF.svg"></a>
+</p>
 
+---------------------------------------------------------------------------------
+<p align="center">
+  <a href="docs/schematics/bATtiny_guard_demo_board_schematic.pdf"><img src="docs/visual/badges/Demo_Board-Schematic-1E90FF.svg"></a>
+  <a href="docs/bom/bATtiny_guard_demo_board_bom_partlist.pdf"><img src="docs/visual/badges/Demo_Board-BOM-1E90FF.svg"></a>
+</p>
+
+---------------------------------------------------------------------------------
 
 ## Installation
 
