@@ -22,13 +22,29 @@ systems.
 Furthermore, when paired with the demo kit base PCB, the module serves as a general
 development board for the ATTINY1616, with all
 18 GPIO pins accessible for any application.
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 
-
-## Features
-
+# Features
+&nbsp;
+&nbsp;
+&nbsp;
 ![Feature overview](docs/visual/info.png)
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<p>
 <img src="/docs/visual/battiny_guard_dk_isov.png" align="right" width="35%"/>
 
 - 32 PIN 22.22mm *16.51mm package
@@ -44,6 +60,7 @@ development board for the ATTINY1616, with all
 - Arduino compatible
 
 <br clear="right"/>
+</p>
 
 ---------------------------------------------------------------------------------
 <p align="left">
@@ -61,7 +78,7 @@ development board for the ATTINY1616, with all
 
 ---------------------------------------------------------------------------------
 
-## Installation
+# Installation
 
 To program this module you will need the following:
 
@@ -86,7 +103,24 @@ Board settings should be set up like this:
 
 Default code provides basic power management and monitoring - press PWR_SW for >500ms and BAT_OUT will turn on, hold PWR_SW for >3s and BAT_OUT will turn off.
 
-
+To start, you should have the demo board connected via USB to your computer. Powering over USB only will work most of the time, but it is strongly recommended to have the battery connected to the demo board/module.
+Switching between USB modes is done with the use of a tactile switch on the demo board; for flashing/programming, set it to 'UPDI', by pressing the button again, the mode is toggled to 'Serial' which will allow for serial communication.
+<p align="center">
+<img 
+    width="45%"
+    src="docs/visual/battiny_guard_bat.png" 
+    alt="bat connected">
+</img>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<img 
+    width="45%"
+    src="docs/visual/battiny_guard_usb.png" 
+    alt="usb connected">
+</img>
+</p>
 
 
 Example output to serial (ADC pins floating):
@@ -104,7 +138,7 @@ For more information, please read the [datasheet](bATtiny_guard_datasheet.pdf).
 
 ---------------------------------------------------------------------------------
     
-## Module Schematic
+# Module Schematic
 
 
 
@@ -113,7 +147,7 @@ For more information, please read the [datasheet](bATtiny_guard_datasheet.pdf).
 ---------------------------------------------------------------------------------
 
 
-## Demo board Schematic
+# Demo board Schematic
 
 
 
@@ -121,6 +155,10 @@ For more information, please read the [datasheet](bATtiny_guard_datasheet.pdf).
 
 
 ---------------------------------------------------------------------------------
+# bATtiny Series
+
+![bATtiny Series](docs/visual/battiny_series_banner.png)
 
 
-## [License](LICENSE)
+---------------------------------------------------------------------------------
+# [License](LICENSE)
