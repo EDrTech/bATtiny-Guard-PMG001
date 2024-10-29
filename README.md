@@ -1,5 +1,11 @@
-![Logo](docs/visual/info.png)
+![Banner](docs/visual/battiny_banner.png)
 
+
+![bATtiny Guard Demo Board](docs/visual/battiny_guard_dk_vis1.png)
+
+
+
+---------------------------------------------------------------------------------
 > [!NOTE]
 > "bATtiny Guard" and "PMG001" may be used interchangeably elsewhere in the documentation.
 
@@ -21,6 +27,10 @@ development board for the ATTINY1616, with all
 
 ## Features
 
+![Feature overview](docs/visual/info.png)
+
+<img src="/docs/visual/battiny_guard_dk_isov.png" align="right" width="35%"/>
+
 - 32 PIN 22.22mm *16.51mm package
 - On/off behavior control
 - 2A single cell charger
@@ -32,8 +42,11 @@ development board for the ATTINY1616, with all
 - On-module temperature measurement
 - I2C Interface
 - Arduino compatible
+
+<br clear="right"/>
+
 ---------------------------------------------------------------------------------
-<p align="center">
+<p align="left">
   <a href="bATtiny_guard_datasheet.pdf"><img src="docs/visual/badges/Module-Datasheet-1E90FF.svg"></a>
   <a href="docs/schematics/bATtiny_guard_module_schematic.pdf"><img src="docs/visual/badges/Module-Schematic-1E90FF.svg"></a>
   <a href="bATtiny_guard_default_code"><img src="docs/visual/badges/Module-Code-1E90FF.svg"></a>
@@ -41,7 +54,7 @@ development board for the ATTINY1616, with all
 </p>
 
 ---------------------------------------------------------------------------------
-<p align="center">
+<p align="left">
   <a href="docs/schematics/bATtiny_guard_demo_board_schematic.pdf"><img src="docs/visual/badges/Demo_Board-Schematic-1E90FF.svg"></a>
   <a href="docs/bom/bATtiny_guard_demo_board_bom_partlist.pdf"><img src="docs/visual/badges/Demo_Board-BOM-1E90FF.svg"></a>
 </p>
@@ -52,7 +65,7 @@ development board for the ATTINY1616, with all
 
 To program this module you will need the following:
 
-- Arduino DE (Or other IDE of your choosing)
+- Arduino IDE (Or other IDE of your choosing)
 - [megaTinyCore](https://github.com/SpenceKonde/megaTinyCore)
 - Demo kit with the module soldered on
 
@@ -60,16 +73,32 @@ There's no need to install any additional libraries as the example code only use
 
 
 
-Board settings should be set up like this:
 
+
+Board settings should be set up like this:
+<p align="center">
 <img 
-    style="width: 45%;"
+    width="45%"
     src="docs/visual/arduino_ide_settings.png" 
     alt="settings">
 </img>
-
+</p>
 
 Default code provides basic power management and monitoring - press PWR_SW for >500ms and BAT_OUT will turn on, hold PWR_SW for >3s and BAT_OUT will turn off.
+
+
+
+
+Example output to serial (ADC pins floating):
+<p align="center">
+<img 
+    style="width: 45%;"
+    align="center;"
+    src="docs/visual/battiny_serial_out_ex.png" 
+    alt="settings">
+</img>
+</p>
+
 
 For more information, please read the [datasheet](bATtiny_guard_datasheet.pdf).
 
