@@ -198,3 +198,12 @@ For more information, please read the [datasheet](bATtiny_guard_datasheet.pdf).
 
 ---------------------------------------------------------------------------------
 # [License](LICENSE)
+
+<p align="left">
+  
+  [<img src="docs/visual/certification-mark-HR000117-wide.svg" style="width: 25%">](https://certification.oshwa.org/hr000117.html)
+  
+</p>
+
+
+
