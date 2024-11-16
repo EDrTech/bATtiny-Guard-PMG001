@@ -10,6 +10,16 @@
 > "bATtiny Guard" and "PMG001" may be used interchangeably elsewhere in the documentation.
 
 ---------------------------------------------------------------------------------
+> [!IMPORTANT]
+> <p>
+> <a href="https://www.crowdsupply.com/edrtech/battiny-guard"><img src="https://www.crowdsupply.com/_marvin/images/crowd-supply-logo-dark.svg" align="right" width="20%"></a>
+> Check out bATtiny Guard, now in the pre-launch stage on <a href="https://www.crowdsupply.com/edrtech/battiny-guard">CrowdSupply</a>,
+> and subscribe to be notified when it’s available. 
+><br clear="right"/>
+></p>
+
+
+---------------------------------------------------------------------------------
 # bATtiny Guard Power management module
 
 bATtiny Guard is a highly integrated module designed for efficient management of single-cell
@@ -198,3 +208,12 @@ For more information, please read the [datasheet](bATtiny_guard_datasheet.pdf).
 
 ---------------------------------------------------------------------------------
 # [License](LICENSE)
+
+<p align="left">
+  
+  [<img src="docs/visual/certification-mark-HR000117-wide.svg" style="width: 25%">](https://certification.oshwa.org/hr000117.html)
+  
+</p>
+
+
+
