@@ -10,7 +10,7 @@
 > "bATtiny Guard" and "PMG001" may be used interchangeably elsewhere in the documentation.
 
 ---------------------------------------------------------------------------------
-> [!IMPORTANT]
+> [!NOTE]
 > <p>
 > <a href="https://www.crowdsupply.com/edrtech/battiny-guard"><img src="https://www.crowdsupply.com/_marvin/images/crowd-supply-logo-dark.svg" align="right" width="20%"></a>
 > Check out bATtiny Guard, now in the pre-launch stage on <a href="https://www.crowdsupply.com/edrtech/battiny-guard">CrowdSupply</a>,
